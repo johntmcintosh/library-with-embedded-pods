@@ -11,7 +11,7 @@ import Foundation
 public class MyFramework {
     public init() { }
     
-    public static func launch() {
+    public func launch() {
         print("Hello from MyFramework.")
     }
 }
