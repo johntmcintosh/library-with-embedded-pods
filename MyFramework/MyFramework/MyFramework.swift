@@ -7,11 +7,13 @@
 //
 
 import Foundation
+import Kingfisher
 
 public class MyFramework {
     public init() { }
     
     public func launch() {
         print("Hello from MyFramework.")
+        print(KingfisherManager.shared)
     }
 }
